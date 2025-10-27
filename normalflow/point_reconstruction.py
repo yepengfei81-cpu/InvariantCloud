@@ -178,7 +178,7 @@ class MultiFramePointCloudFusion:
             self.frame_poses.append(pose_matrix.copy())
             self.frame_ids.append(frame_id)
             self.trajectory_points.append(translation.copy())
-            self.update_visualization_improved()
+            # self.update_visualization_improved()
             self.frame_count += 1
             return True
         
@@ -189,7 +189,7 @@ class MultiFramePointCloudFusion:
         self.frame_ids.append(frame_id)
         self.trajectory_points.append(translation.copy())
 
-        self.update_visualization_improved()
+        # self.update_visualization_improved()
 
         self.frame_count += 1
         return True
