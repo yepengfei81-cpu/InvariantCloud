@@ -63,13 +63,13 @@ python demos/realtime_object_tracking.py
 
 The current implementation works best with:
 
-✅ Objects with noticeable surface curvature (e.g., eggs, pencils)
-✅ Non-circular or irregular shapes
+### ✅ Objects with noticeable surface curvature (e.g., eggs, pencils)
+### ✅ Non-circular or irregular shapes
 
 The tracking may be challenging for:
 
-❌ Highly regular spheres
-❌ Flat surfaces with minimal curvature
+### ❌ Highly regular spheres
+### ❌ Flat surfaces with minimal curvature
 
 
 
